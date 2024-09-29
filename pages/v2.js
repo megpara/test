@@ -27,6 +27,7 @@ export default function V2() {
     { x: 20, y: 25 },
     { x: 30, y: 30},
     { x: 35, y: 35 },
+    { x: 35, y: 20 },
     { x: 35, y: 20 }
 ];
 
@@ -66,7 +67,7 @@ export default function V2() {
     <div className="w-screen h-screen flex flex-col items-center justify-center px-8 sm:p-20">
       <div className="relative w-1/4 h-1/4">
       {/* <img src="Icon-container-light-01.png" className="absolute" /> */}
-      {['/Icon-1-light.png', '/Icon-2-light.png', '/Icon-3-light.png', 'Icon-4-light.png', 'Icon-container-light-01.png'].map((src, index) => (
+      {['/Icon-1-light.png', '/Icon-2-light.png', '/Icon-3-light.png', 'Icon-4-light.png', 'Icon-container-light-01.png', 'Icon-crop.png'].map((src, index) => (
                 <img
                     key={index}
                     ref={(el) => (imageRefs.current[index] = el)}

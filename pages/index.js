@@ -27,6 +27,7 @@ export default function Home() {
     { x: 22, y: 22 },
     { x: 24, y: 24},
     { x: 26, y: 26 },
+    { x: 23, y: 23 },
     { x: 23, y: 23 }
 ];
 
@@ -66,7 +67,7 @@ export default function Home() {
     <div className="w-screen h-screen flex flex-col items-center justify-center px-8 sm:p-20">
       <div className="relative w-1/4 h-1/4">
       {/* <img src="Icon-container-light-01.png" className="absolute" /> */}
-      {['/Icon-1-light.png', '/Icon-2-light.png', '/Icon-3-light.png', 'Icon-4-light.png', 'Icon-container-light-01.png'].map((src, index) => (
+      {['/Icon-1-light.png', '/Icon-2-light.png', '/Icon-3-light.png', 'Icon-4-light.png', 'Icon-container-light-01.png', 'Icon-crop.png'].map((src, index) => (
                 <img
                     key={index}
                     ref={(el) => (imageRefs.current[index] = el)}
